@@ -80,7 +80,7 @@ function App () {
             <CardSlider
                 title="What is the <br/> Speciality Of Us?"
             />
-        </div> //sdsdsd
+        </div>
         <div className='container mx-auto mb-110'>
             <ProductsSection
                 title="Our Owning Products"
