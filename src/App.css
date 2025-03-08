@@ -1,0 +1,74 @@
+@import "tailwindcss";
+@import "../node_modules/swiper/swiper.css";
+
+@theme {
+
+    /* Colors */
+    --color-primary: #9D60EB;
+    --color-primary-light: #C6BAF8;
+    --color-secondary: #49BE55;
+    --color-white: #FFFFFF;
+    --color-gray1: #CCCCCC;
+    --color-gray2: #C2C2C2;
+    --color-black0: #000000;
+    --color-black2: #222222;
+    --color-black3: #333333;
+    --color-black5: #555555;
+    --color-black6: #666666;
+    --color-black7: #777777;
+    --color-black9: #999999;
+    --color-primary-gradient-start: #6362D7;
+    --color-primary-gradient-end: #FF8FE2;
+    --color-IB: #E5E5E5;
+    --color-FT: #101C21;
+    --color-facebook-g-start: #6362D7;
+    --color-facebook-g-end: #FF8FE2;
+    --color-skype-g-start: #00B56C;
+    --color-skype-g-end: #9EE69D;
+    --color-linkedin-g-start: #F03295;
+    --color-linkedin-g-end: #FF9AB6;
+    --color-instagram-g-start: #F09376;
+    --color-instagram-g-end: #F0DB79;
+    
+
+    /* Fonst Size */
+    --text-xxsmall: 12px;
+    --text-xsmall: 13px;
+    --text-small: 14px;
+    --text-regular: 15px;
+    --text-normal: 16px;
+    --text-medium: 24px;
+    --text-large: 36px;
+    --text-xlarge: 46px;
+
+    /* Spacing */
+    --spacing-4: 4px;
+    --spacing-5: 5px;
+    --spacing-10: 10px;
+    --spacing-15: 15px;
+    --spacing-16: 16px;
+    --spacing-18: 18px;
+    --spacing-20: 20px;
+    --spacing-24: 24px;
+    --spacing-30: 30px;
+    --spacing-32: 32px;
+    --spacing-34: 34px;
+    --spacing-35: 35px;
+    --spacing-36: 36px;
+    --spacing-40: 40px;
+    --spacing-50: 50px;
+    --spacing-60: 60px;
+    --spacing-80: 80px;
+    --spacing-85: 85px;
+    --spacing-100: 100px;
+    --spacing-110: 110px;
+    --spacing-130: 130px;
+    --spacing-170: 170px;
+
+    /* Shadow */
+    --shadow-regular: 0 10px 30px rgba(153, 153, 153, 0.2);
+    --shadow-normal: 0 20px 60px rgba(60, 60, 60, 0.16);
+
+    /* Background Image */
+    --hero-bg: url('assets/hero-bg.png');
+  }
