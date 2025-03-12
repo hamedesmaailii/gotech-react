@@ -1,3 +1,5 @@
+import { Link } from 'react-router-dom';
+
 type MenuProps = {
     items: MenuItems[]
 }
@@ -16,7 +18,11 @@ const Menu : React.FC<MenuProps> = ({items}) => {
                 if(item?.active){
                     itemClasses += "text-primary after:content-[''] after:w-2 after:h-2 after:bg-primary after:absolute after:left-1/2 after:-bottom-1/2 after:-translate-x-1/2 after:rounded-full";
                 }
-                return <li key={item.name}><a href={item.link} className={itemClasses}>{item.name}</a></li>
+                return (
+                    <li key={item.name}>
+                        <Link to={item.link} className={itemClasses}>{item.name}</Link>
+                    </li>
+                )
             })}
         </ul>
     )
