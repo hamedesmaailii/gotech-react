@@ -9,6 +9,7 @@ import FeatureBlock from "../components/FeatureBlock";
 import firstImg from '../assets/about-feature-img.png';
 import secondImg from '../assets/third-img.png';
 import CardSlider from "../components/CardSlider";
+import Gallery from "../components/Gallery";
 
 const About = () => {
     return (
@@ -73,6 +74,11 @@ const About = () => {
             <div className="container mx-auto my-100">
                 <CardSlider
                     title="What is the <br/> Speciality Of Us?"
+                />
+            </div>
+            <div>
+                <Gallery
+                    title="Our Featured Gallery"
                 />
             </div>
         </div>
