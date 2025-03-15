@@ -1,4 +1,4 @@
-import { Link } from 'react-router-dom';
+import { Link, useLocation } from 'react-router-dom';
 
 type MenuProps = {
     items: MenuItems[]
@@ -6,16 +6,17 @@ type MenuProps = {
 interface MenuItems{
     name: string;
     link: string;
-    active?: boolean
 }
 const Menu : React.FC<MenuProps> = ({items}) => {
+    const location = useLocation();
 
     return (
         <ul className="flex flex-row gap-[40px]">
             {items.map((item: MenuItems) => {
+                let isActive = location.pathname === item.link;
                 let itemClasses = 'relative text-sm text-black5 hover:text-primary transition duration-300 ';
 
-                if(item?.active){
+                if(isActive){
                     itemClasses += "text-primary after:content-[''] after:w-2 after:h-2 after:bg-primary after:absolute after:left-1/2 after:-bottom-1/2 after:-translate-x-1/2 after:rounded-full";
                 }
                 return (

@@ -42,6 +42,7 @@ module.exports = {
                 small: "var(--text-small)",
                 regular: "var(--text-regular)",
                 normal: "var(--text-normal)",
+                semiNormal: "var(--text-semi-normal)",
                 medium: "var(--text-medium)",
                 large: "var(--text-large)",
                 xlarge: "var(--text-xlarge)",

@@ -18,7 +18,7 @@ const Home = () => {
     return (
         <>
             <header>
-                <div className="container mx-auto flex justify-between mt-[40px]">  
+                <div className="container mx-auto flex justify-between items-center mt-[40px]">  
                     <div>
                         <Logo link='/' name='Site name' image={logoImage}/>
                     </div>
@@ -26,7 +26,7 @@ const Home = () => {
                     <div>
                         <Menu items={
                             [
-                                {name: 'Home', link: '/', active: true},
+                                {name: 'Home', link: '/'},
                                 {name: 'About', link: '/about'},
                                 {name: 'Portfolio', link: '/portfolio'},
                                 {name: 'Product', link: '/product'},
