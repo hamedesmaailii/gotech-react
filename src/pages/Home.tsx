@@ -1,9 +1,4 @@
-import Logo from "../components/Logo.tsx";
-import Menu from "../components/Menu.tsx";
-import logoImage from '../assets/header-logo.png';
-import SearchBox from '../components/SearchBox.tsx';
-import SearchIcon from '../assets/search.svg';
-import Button from '../components/Button.tsx';
+import Header from '../components/Header.tsx';
 import HeroSection from '../components/HeroSection.tsx';
 import FeatureBlock from '../components/FeatureBlock.tsx';
 import secondImg from '../assets/second-img.png';
@@ -17,35 +12,8 @@ import Footer from '../components/Footer.tsx';
 const Home = () => {
     return (
         <>
-            <header>
-                <div className="container mx-auto flex justify-between items-center mt-[40px]">  
-                    <div>
-                        <Logo link='/' name='Site name' image={logoImage}/>
-                    </div>
-                    <div>
-                    <div>
-                        <Menu items={
-                            [
-                                {name: 'Home', link: '/'},
-                                {name: 'About', link: '/about'},
-                                {name: 'Portfolio', link: '/portfolio'},
-                                {name: 'Product', link: '/product'},
-                                {name: 'Career', link: '/career'},
-                                {name: 'Blog', link: '/blog'},
-                            ]
-                                    }
-                        />
-                        </div>
-                    </div>
-                    <div className="flex items-center">
-                        <div className="flex">
-                            <SearchBox name='Search Here' image={SearchIcon}/>
-                            <a href='#'>
-                                <Button text='Contact Us' color='primary'/>
-                            </a>
-                        </div>
-                    </div>
-                </div>
+            <header className='container mx-auto mt-[40px]'>
+                <Header />
             </header>
             <div className='w-full bg-[url(assets/hero-bg.png)] bg-no-repeat bg-contain h-screen mb-[170px]'>
                 <HeroSection

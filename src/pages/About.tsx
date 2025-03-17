@@ -22,7 +22,6 @@ const About = () => {
                         <Logo link='/' name='Site name' image={logoImage}/>
                     </div>
                     <div>
-                    <div>
                         <Menu items={
                             [
                                 {name: 'Home', link: '/'},
@@ -34,7 +33,6 @@ const About = () => {
                             ]
                                     }
                         />
-                        </div>
                     </div>
                     <div className="flex items-center">
                         <div className="flex">
