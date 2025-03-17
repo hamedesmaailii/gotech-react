@@ -10,6 +10,8 @@ import firstImg from '../assets/about-feature-img.png';
 import secondImg from '../assets/third-img.png';
 import CardSlider from "../components/CardSlider";
 import Gallery from "../components/Gallery";
+import ContactUs from "../components/ContactUs";
+import Footer from "../components/Footer";
 
 const About = () => {
     return (
@@ -81,6 +83,21 @@ const About = () => {
                     title="Our Featured Gallery"
                 />
             </div>
+            <div className='mb-100'>
+                <ContactUs
+                    title='Facing Problem? <br/> Lets Get In Touch Now'
+                    firstName='First Name'
+                    lastName='Last Name'
+                    email='Your Email Address'
+                    problem='Which Related Problem You Are Facing?'
+                    message='Type Your Message'
+                />
+            </div>
+            <footer>
+                <Footer
+                    copyRight="Copyright@themefisher2020"
+                />
+            </footer>
         </div>
     )
 }
