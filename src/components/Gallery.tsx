@@ -1,4 +1,5 @@
-import React, { useState } from 'react';
+import React from 'react';
+
 import image0 from '../assets/galleryImg0.png';
 import image1 from '../assets/galleryImg1.png';
 import image2 from '../assets/galleryImg2.png';
