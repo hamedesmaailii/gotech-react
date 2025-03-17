@@ -76,7 +76,7 @@ const About = () => {
                     title="What is the <br/> Speciality Of Us?"
                 />
             </div>
-            <div>
+            <div className="container mx-auto mb-100">
                 <Gallery
                     title="Our Featured Gallery"
                 />
