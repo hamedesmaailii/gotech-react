@@ -7,7 +7,7 @@ import SearchIcon from '../assets/search.svg';
 
 const Header = () => {
     return (
-        <div className="flex justify-between items-center">
+        <div className="flex justify-between items-center mt-[40px]">
             <div>
                 <Logo link='/' name='Site name' image={logoImage}/>
             </div>

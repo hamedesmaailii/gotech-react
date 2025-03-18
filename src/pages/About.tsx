@@ -1,9 +1,4 @@
-import Logo from "../components/Logo";
-import Menu from "../components/Menu";
-import SearchBox from "../components/SearchBox";
-import Button from "../components/Button";
-import logoImage from '../assets/header-logo.png';
-import SearchIcon from '../assets/search.svg';
+import Header from "../components/Header";
 import Breadcrumb from "../components/Breadcrumb";
 import FeatureBlock from "../components/FeatureBlock";
 import firstImg from '../assets/about-feature-img.png';
@@ -17,31 +12,8 @@ const About = () => {
     return (
         <div>
             <header>
-                <div className="container mx-auto flex justify-between items-center mt-[40px]">  
-                    <div>
-                        <Logo link='/' name='Site name' image={logoImage}/>
-                    </div>
-                    <div>
-                        <Menu items={
-                            [
-                                {name: 'Home', link: '/'},
-                                {name: 'About', link: '/about'},
-                                {name: 'Portfolio', link: '/portfolio'},
-                                {name: 'Product', link: '/product'},
-                                {name: 'Career', link: '/career'},
-                                {name: 'Blog', link: '/blog'},
-                            ]
-                                    }
-                        />
-                    </div>
-                    <div className="flex items-center">
-                        <div className="flex">
-                            <SearchBox name='Search Here' image={SearchIcon}/>
-                            <a href='#'>
-                                <Button text='Contact Us' color='primary'/>
-                            </a>
-                        </div>
-                    </div>
+                <div className="container mx-auto">  
+                    <Header />
                 </div>
             </header>
             <Breadcrumb

@@ -18,7 +18,7 @@ const ProductsSection : React.FC<ProductsSectionProps> = ({title, subTitle}) => 
             <h2 className="text-black2 text-large leading-[46px]">{title}</h2>
             <p className="text-black5 text-regular leading-[27px] text-center mt-[30px] mb-[90px]" dangerouslySetInnerHTML={{__html:subTitle}}></p>
             <div className="grid grid-cols-3 gap-[30px]">
-                <div className="flex flex-col gap-[30px] columns-2">
+                <div className="flex flex-col gap-[30px]">
                     <ProductCard
                         imageSrc={earth}
                         imageAlt="erath-2.0"
@@ -34,7 +34,7 @@ const ProductsSection : React.FC<ProductsSectionProps> = ({title, subTitle}) => 
                         buttonText="Learn More"
                     />
                 </div>
-                <div className="flex flex-col gap-[30px] columns-2 -mt-[50px]">
+                <div className="flex flex-col gap-[30px] -mt-[50px]">
                     <ProductCard
                         imageSrc={hexLab}
                         imageAlt="erath-2.0"
@@ -50,7 +50,7 @@ const ProductsSection : React.FC<ProductsSectionProps> = ({title, subTitle}) => 
                         buttonText="Learn More"
                     />
                 </div>
-                <div className="flex flex-col gap-[30px] columns-2">
+                <div className="flex flex-col gap-[30px]">
                     <ProductCard
                         imageSrc={liva}
                         imageAlt="erath-2.0"

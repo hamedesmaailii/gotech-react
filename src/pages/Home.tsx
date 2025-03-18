@@ -12,7 +12,7 @@ import Footer from '../components/Footer.tsx';
 const Home = () => {
     return (
         <>
-            <header className='container mx-auto mt-[40px]'>
+            <header className='container mx-auto'>
                 <Header />
             </header>
             <div className='w-full bg-[url(assets/hero-bg.png)] bg-no-repeat bg-contain h-screen mb-[170px]'>
