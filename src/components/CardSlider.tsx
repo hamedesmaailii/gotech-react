@@ -22,13 +22,13 @@ const CardSlider : React.FC<CardSliderProps> = ({title}) => {
             <Swiper
                 modules={[ Navigation ]}
                 slidesPerView={3}
-                spaceBetween={30}
+                spaceBetween={-10}
                 navigation={{
                     prevEl:'.swiper-button-prev',
                     nextEl: '.swiper-button-next',
                 }}
             >
-                <SwiperSlide className="pt-[60px] ml-[75px]">
+                <SwiperSlide className="pt-[60px] ml-[30px]">
                     <SpecialityCard 
                         image={spCard1}
                         imgAlt="img-card1"

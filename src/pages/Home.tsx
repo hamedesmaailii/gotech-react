@@ -43,7 +43,7 @@ const Home = () => {
                     secondDescription='vel cu paulo doctus vidsse. Iudico dicant nostrum nec aIn <br/> detraxit eleifend duo, alterum iudicabit consectetuer per.'
                 />
             </div>
-            <div className='container mx-auto my-100'>
+            <div className='mx-auto my-100 w-[1200px]'>
                 <CardSlider
                     title="What is the <br/> Speciality Of Us?"
                 />
