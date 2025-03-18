@@ -14,9 +14,9 @@ const PortfolioCard : React.FC<PortfolioCardProps> = ({imgSrc, imgAlt, cardTitle
         <div className="flex flex-col bg-white shadow-regular rounded-[8px]">
             <img className="w-[370px] h-[280px]" src={imgSrc} alt={imgAlt} />
             <div className="px-[30px]">
-                <strong className="text-black2 text-medium leading-[32px] font-medium mt-[33px] mb-[17px] ">{cardTitle}</strong>
+                <strong className="text-black2 text-medium leading-[32px] font-normal mt-[33px] mb-[17px] block">{cardTitle}</strong>
                 <p className="text-black5 text-regular leading-[27px] font-normal mb-[30px]" dangerouslySetInnerHTML={{__html: cardDescription}}></p>
-                <a className="block mb-[52px]" href={buttonLink}>{buttonTitle}</a>
+                <a className="text-secondary text-normal leading-[21px] font-medium block mb-[52px]" href={buttonLink}>{buttonTitle}</a>
             </div>
         </div>
     )
