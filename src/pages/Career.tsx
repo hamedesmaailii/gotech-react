@@ -3,6 +3,7 @@ import Breadcrumb from "../components/Breadcrumb";
 
 import ContactUs from "../components/ContactUs";
 import Footer from "../components/Footer";
+import Video from "../components/Video";
 
 const Career = () => {
     return (
@@ -17,7 +18,12 @@ const Career = () => {
                     {label: 'Career'}
                 ]}
             />
-            <div className="mt-30 mb-[94px] text-center border border-dashed">Video Section</div>
+            <div className="mt-30 mb-[94px]">
+                <Video
+                    title="Why GOtech??"
+                    description="Lorem ipsum dolor sit amet, consetetur sadipscing elitr,  diam nonumy eirmod tempor <br/> invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et <br/> accusam et justo duo dolores et ea rebum Stet."
+                />
+            </div>
             <div className="mb-[94px] text-center border border-dashed">Gallery Section</div>
             <div className="mb-[94px] text-center border border-dashed">Jobs Section</div>
             <div className='mb-100'>
